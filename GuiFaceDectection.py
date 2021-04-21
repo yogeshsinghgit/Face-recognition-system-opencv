@@ -1,10 +1,11 @@
 from tkinter import *
 import cv2
+# pip install opencv-python
+# opencv-contrib-python
 from tkinter import messagebox
 import os
-import shutil
 import numpy
-from pathlib import Path
+
 
 
 class FaceDetection():
@@ -13,7 +14,7 @@ class FaceDetection():
         self.haar_file = 'haarcascade_frontalface_default.xml'
 
         Label(self.root, bg='white', height=2).pack(fill=BOTH)
-        title = Label(self.root, bg='#0099ff', text=' Face Detection - Dynamic Coding',
+        title = Label(self.root, bg='#0099ff', text=' Face Recognization',
                       font=('arial', 15, 'bold'), height=3, bd=2, relief='groove')
         title.pack(fill=BOTH)
 
@@ -163,7 +164,7 @@ if __name__ == '__main__':
     root = Tk()
     FaceDetection(root)
     root.geometry('550x330+240+200')
-    root.title("Real Time Face Detection")
+    root.title("Real Time Face REcognization")
     root.resizable(0, 0)
     root.configure(bg='#0099ff')
     root.mainloop()
