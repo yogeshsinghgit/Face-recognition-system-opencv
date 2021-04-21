@@ -1,0 +1,32 @@
+#-------- Requirements ----------
+Modules used ..
+1. Numpy version 1.4
+2. opencv-python version 3.4 )
+3. os
+4. tkinter
+5. pathlib
+.
+Note: use opencv-python version 3.4 or below 
+      the Code will not work on version 4x or more.
+      because of some functional errors.
+
+#----- How it works -------
+
+1. first you have to train The Model with your image data by simply clicking
+	on the train model button in GUI .
+2. it will open a new window in wwhich you have to pass your name and id (id because their may be 2 or more person of same name.)
+
+3. after entering all information press the button train model
+4. and last click on the test model button and then the model will rechognize your face.
+5. press ( esc ) key for exit the recognization window ....
+
+Note: you have to tarin the model one time for a person not more than it otherwise it will generate some errors while runing.
+
+# ------ Author information ----------
+
+This whole project is made by Yogesh singh
+Admin of instagram page @dynamic.coding (Dynamic Coding).
+if you face any error with this project you can drop a message on our instagram page.
+.
+#----- How much it cost --------
+
